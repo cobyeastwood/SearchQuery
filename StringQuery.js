@@ -34,7 +34,7 @@ class StringQuery {
 			number > max ? ((max = number), (this._key = key)) : this._map.delete(key)
 		)
 
-		// keep prevous index reference
+		// keep previous index reference
 		const prevIdx = this._key
 
 		// empty out Map
