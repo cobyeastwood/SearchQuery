@@ -1,0 +1,21 @@
+{
+	"scripts": {
+		"test": "jest"
+	},
+	"author": "Coby Eastwood <cobyeastwood@gmail.com> (https://github.com/cobyeastwood/)",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.15.0",
+		"@babel/preset-env": "^7.15.0",
+		"babel-jest": "^27.0.6",
+		"jest": "^27.0.6"
+	},
+	"jest": {
+		"setupFiles": [],
+		"roots": [
+			"./lib"
+		],
+		"testRegex": "\\.test\\.js$",
+		"verbose": true
+	}
+}
